@@ -25,6 +25,7 @@ $(document).ready(function () {
             $(".wind").text("Wind Speed: " + data.wind.speed);
             $(".humidity").text("Humidity: " + data.main.humidity);
             $(".temp").text("Temperature (F) " + data.main.temp);
+            $(".description").text("Descrition: " + data.weather[0].description);
 
             // Log the data in the console as well
             console.log("Wind Speed: " + data.wind.speed);
